@@ -1,0 +1,7 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Linux kernel
+Source: http://ftp.kernel.org/pub/linux/kernel/
+
+Files: *
+Copyright: 1991-2019 Linus Torvalds and many others
+License: GPL-2
