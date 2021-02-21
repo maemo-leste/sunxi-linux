@@ -1,0 +1,39 @@
+Source: sunxi-linux
+Section: sunxi
+Priority: optional
+Maintainer: Ivan J. <parazyd@dyne.org>
+Build-Depends:
+ debhelper-compat (= 12),
+ rsync,
+ kmod,
+ bc,
+ flex,
+ bison,
+ libssl-dev:native,
+ libssl-dev,
+ liblz4-tool,
+ u-boot-tools,
+ device-tree-compiler,
+Standards-Version: 4.3.0
+Homepage: https://www.kernel.org
+Vcs-Git: https://github.com/maemo-leste/sunxi-linux
+Vcs-Browser: https://github.com/maemo-leste/sunxi-linux
+
+Package: linux-image-sunxi
+Architecture: armhf
+Description: Linux kernel for Sunxi Arm devices
+ This package contains the Linux kernel, modules, and corresponding other files.
+
+Package: linux-headers-droid4
+Architecture: armhf
+Provides: linux-headers
+Description: Linux kernel headers for Sunxi Arm devices
+ This package provides kernel header files for Sunxi Arm devices
+ .
+ This is useful for people who need to build external modules
+
+Package: linux-image-droid4-dbg
+Architecture: armhf
+Description: Linux kernel debugging symbols for Sunxi Arm devices
+ This package will come in handy if you need to debug the kernel. It provides
+ all the necessary debug symbols for the kernel and its modules.

@@ -1,0 +1,5 @@
+sunxi-linux (5.12.0-1) unstable; urgency=medium
+
+  * Initial Leste packaging.
+
+ -- Ivan J. <parazyd@dyne.org>  Sun, 21 Feb 2021 18:49:54 +0100
