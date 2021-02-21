@@ -24,7 +24,7 @@ Architecture: armhf
 Description: Linux kernel for Sunxi Arm devices
  This package contains the Linux kernel, modules, and corresponding other files.
 
-Package: linux-headers-droid4
+Package: linux-headers-sunxi
 Architecture: armhf
 Provides: linux-headers
 Description: Linux kernel headers for Sunxi Arm devices
@@ -32,7 +32,7 @@ Description: Linux kernel headers for Sunxi Arm devices
  .
  This is useful for people who need to build external modules
 
-Package: linux-image-droid4-dbg
+Package: linux-image-sunxi-dbg
 Architecture: armhf
 Description: Linux kernel debugging symbols for Sunxi Arm devices
  This package will come in handy if you need to debug the kernel. It provides
